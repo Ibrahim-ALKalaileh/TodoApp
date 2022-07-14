@@ -1,6 +1,5 @@
 import Card from "./components/Todo_Card";
-import Modal from "./components/Modal";
-import Backdrop from "./components/Backdrop";
+
 
 function App() {
   return (
@@ -9,8 +8,7 @@ function App() {
       <Card text='cleaning the house'/>
       <Card text="having a shower"/>
       <Card text="watching the course"/>
-      <Modal/>
-      <Backdrop/>
+     
     </div>
   );
 }
